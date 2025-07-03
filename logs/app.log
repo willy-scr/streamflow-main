@@ -1,0 +1,451 @@
+2025-07-03T15:53:33.567Z [LOG] Logger initialized. Output will be written to console and logs/app.log
+2025-07-03T15:53:34.887Z [LOG] Using bundled FFmpeg at: C:\Users\willy\Downloads\streamflow-main\streamflow-main\node_modules\@ffmpeg-installer\win32-x64\ffmpeg.exe
+2025-07-03T15:53:34.887Z [LOG] Stream scheduler initialized
+2025-07-03T15:53:34.888Z [LOG] Checking for scheduled streams (2025-07-03T15:53:34.888Z to 2025-07-03T15:54:34.888Z)
+2025-07-03T15:53:34.925Z [LOG] StreamFlow running at:
+2025-07-03T15:53:34.926Z [LOG]   http://192.168.1.7:7575
+2025-07-03T15:53:34.928Z [LOG]   http://172.20.176.1:7575
+2025-07-03T15:53:34.932Z [LOG] Stream scheduler initialized
+2025-07-03T15:53:34.932Z [LOG] Checking for scheduled streams (2025-07-03T15:53:34.932Z to 2025-07-03T15:54:34.932Z)
+2025-07-03T15:53:34.934Z [LOG] [StreamingService] Syncing stream statuses...
+2025-07-03T15:53:34.937Z [LOG] [StreamingService] Stream status sync completed. Active streams: 0
+2025-07-03T15:54:05.856Z [ERROR] Error: secret option required for sessions
+    at session (C:\Users\willy\Downloads\streamflow-main\streamflow-main\node_modules\express-session\index.js:204:12)
+    at Layer.handle [as handle_request] (C:\Users\willy\Downloads\streamflow-main\streamflow-main\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\willy\Downloads\streamflow-main\streamflow-main\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\willy\Downloads\streamflow-main\streamflow-main\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\willy\Downloads\streamflow-main\streamflow-main\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\willy\Downloads\streamflow-main\streamflow-main\node_modules\express\lib\router\index.js:280:10)
+    at expressInit (C:\Users\willy\Downloads\streamflow-main\streamflow-main\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\willy\Downloads\streamflow-main\streamflow-main\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\willy\Downloads\streamflow-main\streamflow-main\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\willy\Downloads\streamflow-main\streamflow-main\node_modules\express\lib\router\index.js:286:9
+2025-07-03T15:56:24.684Z [LOG] Logger initialized. Output will be written to console and logs/app.log
+2025-07-03T15:56:25.612Z [LOG] Using bundled FFmpeg at: C:\Users\willy\Downloads\streamflow-main\streamflow-main\node_modules\@ffmpeg-installer\win32-x64\ffmpeg.exe
+2025-07-03T15:56:25.613Z [LOG] Stream scheduler initialized
+2025-07-03T15:56:25.614Z [LOG] Checking for scheduled streams (2025-07-03T15:56:25.614Z to 2025-07-03T15:57:25.614Z)
+2025-07-03T15:56:25.646Z [LOG] StreamFlow running at:
+2025-07-03T15:56:25.646Z [LOG]   http://192.168.1.7:7575
+2025-07-03T15:56:25.647Z [LOG]   http://172.20.176.1:7575
+2025-07-03T15:56:25.652Z [LOG] Stream scheduler initialized
+2025-07-03T15:56:25.653Z [LOG] Checking for scheduled streams (2025-07-03T15:56:25.652Z to 2025-07-03T15:57:25.652Z)
+2025-07-03T15:56:25.655Z [LOG] [StreamingService] Syncing stream statuses...
+2025-07-03T15:56:25.657Z [LOG] [StreamingService] Stream status sync completed. Active streams: 0
+2025-07-03T15:57:25.618Z [LOG] Checking for scheduled streams (2025-07-03T15:57:25.618Z to 2025-07-03T15:58:25.618Z)
+2025-07-03T15:57:25.664Z [LOG] Checking for scheduled streams (2025-07-03T15:57:25.663Z to 2025-07-03T15:58:25.663Z)
+2025-07-03T15:57:45.728Z [LOG] Validation errors: [
+  {
+    type: 'field',
+    value: 'willydigital',
+    msg: 'Password must contain at least one uppercase letter',
+    path: 'password',
+    location: 'body'
+  },
+  {
+    type: 'field',
+    value: 'willydigital',
+    msg: 'Password must contain at least one number',
+    path: 'password',
+    location: 'body'
+  }
+]
+2025-07-03T15:57:54.183Z [LOG] Validation errors: [
+  {
+    type: 'field',
+    value: 'willydigital1212',
+    msg: 'Password must contain at least one uppercase letter',
+    path: 'password',
+    location: 'body'
+  }
+]
+2025-07-03T15:58:04.603Z [LOG] User created successfully with ID: 42673106-fe2a-447c-b7ea-f07582133599
+2025-07-03T15:58:25.623Z [LOG] Checking for scheduled streams (2025-07-03T15:58:25.622Z to 2025-07-03T15:59:25.622Z)
+2025-07-03T15:58:25.669Z [LOG] Checking for scheduled streams (2025-07-03T15:58:25.669Z to 2025-07-03T15:59:25.669Z)
+2025-07-03T15:59:25.631Z [LOG] Checking for scheduled streams (2025-07-03T15:59:25.631Z to 2025-07-03T16:00:25.631Z)
+2025-07-03T15:59:25.679Z [LOG] Checking for scheduled streams (2025-07-03T15:59:25.678Z to 2025-07-03T16:00:25.678Z)
+2025-07-03T16:00:16.411Z [LOG] Upload request received: {
+  fieldname: 'video',
+  originalname: '0620(8).mp4',
+  encoding: '7bit',
+  mimetype: 'video/mp4',
+  destination: 'C:\\Users\\willy\\Downloads\\streamflow-main\\streamflow-main\\public\\uploads\\videos',
+  filename: 'video-1751558416304-604496606.mp4',
+  path: 'C:\\Users\\willy\\Downloads\\streamflow-main\\streamflow-main\\public\\uploads\\videos\\video-1751558416304-604496606.mp4',
+  size: 17683815
+}
+2025-07-03T16:00:25.638Z [LOG] Checking for scheduled streams (2025-07-03T16:00:25.637Z to 2025-07-03T16:01:25.637Z)
+2025-07-03T16:00:25.683Z [LOG] Checking for scheduled streams (2025-07-03T16:00:25.683Z to 2025-07-03T16:01:25.683Z)
+2025-07-03T16:00:54.127Z [LOG] Logger initialized. Output will be written to console and logs/app.log
+2025-07-03T16:00:54.959Z [LOG] Using bundled FFmpeg at: C:\Users\willy\Downloads\streamflow-main\streamflow-main\node_modules\@ffmpeg-installer\win32-x64\ffmpeg.exe
+2025-07-03T16:00:54.960Z [LOG] Stream scheduler initialized
+2025-07-03T16:00:54.962Z [LOG] Checking for scheduled streams (2025-07-03T16:00:54.962Z to 2025-07-03T16:01:54.962Z)
+2025-07-03T16:00:54.996Z [LOG] StreamFlow running at:
+2025-07-03T16:00:54.996Z [LOG]   http://192.168.1.7:7575
+2025-07-03T16:00:54.998Z [LOG]   http://172.20.176.1:7575
+2025-07-03T16:00:55.004Z [LOG] Stream scheduler initialized
+2025-07-03T16:00:55.004Z [LOG] Checking for scheduled streams (2025-07-03T16:00:55.004Z to 2025-07-03T16:01:55.004Z)
+2025-07-03T16:00:55.006Z [LOG] [StreamingService] Syncing stream statuses...
+2025-07-03T16:00:55.007Z [LOG] [StreamingService] Stream status sync completed. Active streams: 0
+2025-07-03T16:01:54.974Z [LOG] Checking for scheduled streams (2025-07-03T16:01:54.974Z to 2025-07-03T16:02:54.974Z)
+2025-07-03T16:01:55.006Z [LOG] Checking for scheduled streams (2025-07-03T16:01:55.005Z to 2025-07-03T16:02:55.005Z)
+2025-07-03T16:02:54.986Z [LOG] Checking for scheduled streams (2025-07-03T16:02:54.986Z to 2025-07-03T16:03:54.986Z)
+2025-07-03T16:02:55.016Z [LOG] Checking for scheduled streams (2025-07-03T16:02:55.016Z to 2025-07-03T16:03:55.016Z)
+2025-07-03T16:03:55.001Z [LOG] Checking for scheduled streams (2025-07-03T16:03:55.000Z to 2025-07-03T16:04:55.000Z)
+2025-07-03T16:03:55.017Z [LOG] Checking for scheduled streams (2025-07-03T16:03:55.016Z to 2025-07-03T16:04:55.016Z)
+2025-07-03T16:04:55.007Z [LOG] Checking for scheduled streams (2025-07-03T16:04:55.007Z to 2025-07-03T16:05:55.007Z)
+2025-07-03T16:04:55.022Z [LOG] Checking for scheduled streams (2025-07-03T16:04:55.022Z to 2025-07-03T16:05:55.022Z)
+2025-07-03T16:05:54.970Z [LOG] [StreamingService] Syncing stream statuses...
+2025-07-03T16:05:54.972Z [LOG] [StreamingService] Stream status sync completed. Active streams: 0
+2025-07-03T16:05:55.016Z [LOG] Checking for scheduled streams (2025-07-03T16:05:55.016Z to 2025-07-03T16:06:55.016Z)
+2025-07-03T16:05:55.032Z [LOG] Checking for scheduled streams (2025-07-03T16:05:55.032Z to 2025-07-03T16:06:55.032Z)
+2025-07-03T16:06:09.720Z [LOG] Upload request received: {
+  fieldname: 'video',
+  originalname: '0620(8).mp4',
+  encoding: '7bit',
+  mimetype: 'video/mp4',
+  destination: 'C:\\Users\\willy\\Downloads\\streamflow-main\\streamflow-main\\public\\uploads\\videos',
+  filename: 'video-1751558769638-624691307.mp4',
+  path: 'C:\\Users\\willy\\Downloads\\streamflow-main\\streamflow-main\\public\\uploads\\videos\\video-1751558769638-624691307.mp4',
+  size: 17683815
+}
+2025-07-03T16:06:09.811Z [LOG] Upload request received: {
+  fieldname: 'video',
+  originalname: '0620(9).mp4',
+  encoding: '7bit',
+  mimetype: 'video/mp4',
+  destination: 'C:\\Users\\willy\\Downloads\\streamflow-main\\streamflow-main\\public\\uploads\\videos',
+  filename: 'video-1751558769636-900707615.mp4',
+  path: 'C:\\Users\\willy\\Downloads\\streamflow-main\\streamflow-main\\public\\uploads\\videos\\video-1751558769636-900707615.mp4',
+  size: 17159790
+}
+2025-07-03T16:06:17.322Z [LOG] Logger initialized. Output will be written to console and logs/app.log
+2025-07-03T16:06:18.282Z [LOG] Using bundled FFmpeg at: C:\Users\willy\Downloads\streamflow-main\streamflow-main\node_modules\@ffmpeg-installer\win32-x64\ffmpeg.exe
+2025-07-03T16:06:18.283Z [LOG] Stream scheduler initialized
+2025-07-03T16:06:18.284Z [LOG] Checking for scheduled streams (2025-07-03T16:06:18.284Z to 2025-07-03T16:07:18.284Z)
+2025-07-03T16:06:18.316Z [LOG] StreamFlow running at:
+2025-07-03T16:06:18.317Z [LOG]   http://192.168.1.7:7575
+2025-07-03T16:06:18.318Z [LOG]   http://172.20.176.1:7575
+2025-07-03T16:06:18.324Z [LOG] Stream scheduler initialized
+2025-07-03T16:06:18.324Z [LOG] Checking for scheduled streams (2025-07-03T16:06:18.324Z to 2025-07-03T16:07:18.324Z)
+2025-07-03T16:06:18.327Z [LOG] [StreamingService] Syncing stream statuses...
+2025-07-03T16:06:18.329Z [LOG] [StreamingService] Stream status sync completed. Active streams: 0
+2025-07-03T16:06:18.529Z [LOG] Logger initialized. Output will be written to console and logs/app.log
+2025-07-03T16:06:19.380Z [LOG] Using bundled FFmpeg at: C:\Users\willy\Downloads\streamflow-main\streamflow-main\node_modules\@ffmpeg-installer\win32-x64\ffmpeg.exe
+2025-07-03T16:06:19.380Z [LOG] Stream scheduler initialized
+2025-07-03T16:06:19.382Z [LOG] Checking for scheduled streams (2025-07-03T16:06:19.382Z to 2025-07-03T16:07:19.382Z)
+2025-07-03T16:06:19.416Z [LOG] StreamFlow running at:
+2025-07-03T16:06:19.416Z [LOG]   http://192.168.1.7:7575
+2025-07-03T16:06:19.417Z [LOG]   http://172.20.176.1:7575
+2025-07-03T16:06:19.421Z [LOG] Stream scheduler initialized
+2025-07-03T16:06:19.422Z [LOG] Checking for scheduled streams (2025-07-03T16:06:19.422Z to 2025-07-03T16:07:19.422Z)
+2025-07-03T16:06:19.423Z [LOG] [StreamingService] Syncing stream statuses...
+2025-07-03T16:06:19.425Z [LOG] [StreamingService] Stream status sync completed. Active streams: 0
+2025-07-03T16:06:30.118Z [LOG] Logger initialized. Output will be written to console and logs/app.log
+2025-07-03T16:06:30.857Z [LOG] Using bundled FFmpeg at: C:\Users\willy\Downloads\streamflow-main\streamflow-main\node_modules\@ffmpeg-installer\win32-x64\ffmpeg.exe
+2025-07-03T16:06:30.858Z [LOG] Stream scheduler initialized
+2025-07-03T16:06:30.860Z [LOG] Checking for scheduled streams (2025-07-03T16:06:30.860Z to 2025-07-03T16:07:30.860Z)
+2025-07-03T16:06:30.885Z [ERROR] -----------------------------------
+2025-07-03T16:06:30.887Z [ERROR] UNCAUGHT EXCEPTION: Error: listen EADDRINUSE: address already in use 0.0.0.0:7575
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at node:net:2203:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 7575
+}
+2025-07-03T16:06:30.889Z [ERROR] -----------------------------------
+2025-07-03T16:07:06.078Z [LOG] Logger initialized. Output will be written to console and logs/app.log
+2025-07-03T16:07:06.869Z [LOG] Using bundled FFmpeg at: C:\Users\willy\Downloads\streamflow-main\streamflow-main\node_modules\@ffmpeg-installer\win32-x64\ffmpeg.exe
+2025-07-03T16:07:06.870Z [LOG] Stream scheduler initialized
+2025-07-03T16:07:06.871Z [LOG] Checking for scheduled streams (2025-07-03T16:07:06.871Z to 2025-07-03T16:08:06.871Z)
+2025-07-03T16:07:06.902Z [LOG] StreamFlow running at:
+2025-07-03T16:07:06.903Z [LOG]   http://192.168.1.7:7575
+2025-07-03T16:07:06.904Z [LOG]   http://172.20.176.1:7575
+2025-07-03T16:07:06.910Z [LOG] Stream scheduler initialized
+2025-07-03T16:07:06.911Z [LOG] Checking for scheduled streams (2025-07-03T16:07:06.910Z to 2025-07-03T16:08:06.910Z)
+2025-07-03T16:07:06.913Z [LOG] [StreamingService] Syncing stream statuses...
+2025-07-03T16:07:06.914Z [LOG] [StreamingService] Stream status sync completed. Active streams: 0
+2025-07-03T16:07:21.611Z [LOG] Upload request received: [
+  {
+    fieldname: 'video',
+    originalname: '0620(7).mp4',
+    encoding: '7bit',
+    mimetype: 'video/mp4',
+    destination: 'C:\\Users\\willy\\Downloads\\streamflow-main\\streamflow-main\\public\\uploads\\videos',
+    filename: 'video-1751558841435-36411641.mp4',
+    path: 'C:\\Users\\willy\\Downloads\\streamflow-main\\streamflow-main\\public\\uploads\\videos\\video-1751558841435-36411641.mp4',
+    size: 17341745
+  }
+]
+2025-07-03T16:07:21.617Z [LOG] Upload request received: [
+  {
+    fieldname: 'video',
+    originalname: '0620(8).mp4',
+    encoding: '7bit',
+    mimetype: 'video/mp4',
+    destination: 'C:\\Users\\willy\\Downloads\\streamflow-main\\streamflow-main\\public\\uploads\\videos',
+    filename: 'video-1751558841433-744383151.mp4',
+    path: 'C:\\Users\\willy\\Downloads\\streamflow-main\\streamflow-main\\public\\uploads\\videos\\video-1751558841433-744383151.mp4',
+    size: 17683815
+  }
+]
+2025-07-03T16:07:21.737Z [LOG] Upload request received: [
+  {
+    fieldname: 'video',
+    originalname: '0620(6).mp4',
+    encoding: '7bit',
+    mimetype: 'video/mp4',
+    destination: 'C:\\Users\\willy\\Downloads\\streamflow-main\\streamflow-main\\public\\uploads\\videos',
+    filename: 'video-1751558841430-655586479.mp4',
+    path: 'C:\\Users\\willy\\Downloads\\streamflow-main\\streamflow-main\\public\\uploads\\videos\\video-1751558841430-655586479.mp4',
+    size: 24147846
+  }
+]
+2025-07-03T16:08:06.870Z [LOG] Checking for scheduled streams (2025-07-03T16:08:06.870Z to 2025-07-03T16:09:06.870Z)
+2025-07-03T16:08:06.910Z [LOG] Checking for scheduled streams (2025-07-03T16:08:06.910Z to 2025-07-03T16:09:06.910Z)
+2025-07-03T16:08:11.383Z [LOG] Upload request received: [
+  {
+    fieldname: 'video',
+    originalname: '0628.mp4',
+    encoding: '7bit',
+    mimetype: 'video/mp4',
+    destination: 'C:\\Users\\willy\\Downloads\\streamflow-main\\streamflow-main\\public\\uploads\\videos',
+    filename: 'video-1751558841432-828186593.mp4',
+    path: 'C:\\Users\\willy\\Downloads\\streamflow-main\\streamflow-main\\public\\uploads\\videos\\video-1751558841432-828186593.mp4',
+    size: 5914817351
+  }
+]
+2025-07-03T16:09:06.880Z [LOG] Checking for scheduled streams (2025-07-03T16:09:06.878Z to 2025-07-03T16:10:06.878Z)
+2025-07-03T16:09:06.925Z [LOG] Checking for scheduled streams (2025-07-03T16:09:06.925Z to 2025-07-03T16:10:06.925Z)
+2025-07-03T16:12:35.668Z [LOG] Logger initialized. Output will be written to console and logs/app.log
+2025-07-03T16:12:36.675Z [LOG] Using bundled FFmpeg at: C:\Users\willy\Downloads\streamflow-main\streamflow-main\node_modules\@ffmpeg-installer\win32-x64\ffmpeg.exe
+2025-07-03T16:12:36.676Z [LOG] Stream scheduler initialized
+2025-07-03T16:12:36.677Z [LOG] Checking for scheduled streams (2025-07-03T16:12:36.677Z to 2025-07-03T16:13:36.677Z)
+2025-07-03T16:12:36.710Z [LOG] StreamFlow running at:
+2025-07-03T16:12:36.711Z [LOG]   http://192.168.1.7:7575
+2025-07-03T16:12:36.713Z [LOG]   http://172.20.176.1:7575
+2025-07-03T16:12:36.717Z [LOG] Stream scheduler initialized
+2025-07-03T16:12:36.718Z [LOG] Checking for scheduled streams (2025-07-03T16:12:36.717Z to 2025-07-03T16:13:36.717Z)
+2025-07-03T16:12:36.720Z [LOG] [StreamingService] Syncing stream statuses...
+2025-07-03T16:12:36.723Z [LOG] [StreamingService] Stream status sync completed. Active streams: 0
+2025-07-03T16:13:14.358Z [LOG] Logger initialized. Output will be written to console and logs/app.log
+2025-07-03T16:13:15.214Z [LOG] Using bundled FFmpeg at: C:\Users\willy\Downloads\streamflow-main\streamflow-main\node_modules\@ffmpeg-installer\win32-x64\ffmpeg.exe
+2025-07-03T16:13:15.215Z [LOG] Stream scheduler initialized
+2025-07-03T16:13:15.216Z [LOG] Checking for scheduled streams (2025-07-03T16:13:15.216Z to 2025-07-03T16:14:15.216Z)
+2025-07-03T16:13:15.246Z [LOG] StreamFlow running at:
+2025-07-03T16:13:15.246Z [LOG]   http://192.168.1.7:7575
+2025-07-03T16:13:15.248Z [LOG]   http://172.20.176.1:7575
+2025-07-03T16:13:15.251Z [LOG] Stream scheduler initialized
+2025-07-03T16:13:15.252Z [LOG] Checking for scheduled streams (2025-07-03T16:13:15.252Z to 2025-07-03T16:14:15.252Z)
+2025-07-03T16:13:15.254Z [LOG] [StreamingService] Syncing stream statuses...
+2025-07-03T16:13:15.256Z [LOG] [StreamingService] Stream status sync completed. Active streams: 0
+2025-07-03T16:13:15.988Z [LOG] Logger initialized. Output will be written to console and logs/app.log
+2025-07-03T16:13:16.786Z [LOG] Using bundled FFmpeg at: C:\Users\willy\Downloads\streamflow-main\streamflow-main\node_modules\@ffmpeg-installer\win32-x64\ffmpeg.exe
+2025-07-03T16:13:16.786Z [LOG] Stream scheduler initialized
+2025-07-03T16:13:16.788Z [LOG] Checking for scheduled streams (2025-07-03T16:13:16.787Z to 2025-07-03T16:14:16.787Z)
+2025-07-03T16:13:16.818Z [LOG] StreamFlow running at:
+2025-07-03T16:13:16.818Z [LOG]   http://192.168.1.7:7575
+2025-07-03T16:13:16.820Z [LOG]   http://172.20.176.1:7575
+2025-07-03T16:13:16.826Z [LOG] Stream scheduler initialized
+2025-07-03T16:13:16.827Z [LOG] Checking for scheduled streams (2025-07-03T16:13:16.826Z to 2025-07-03T16:14:16.826Z)
+2025-07-03T16:13:16.828Z [LOG] [StreamingService] Syncing stream statuses...
+2025-07-03T16:13:16.830Z [LOG] [StreamingService] Stream status sync completed. Active streams: 0
+2025-07-03T16:14:16.799Z [LOG] Checking for scheduled streams (2025-07-03T16:14:16.797Z to 2025-07-03T16:15:16.797Z)
+2025-07-03T16:14:16.829Z [LOG] Checking for scheduled streams (2025-07-03T16:14:16.829Z to 2025-07-03T16:15:16.829Z)
+2025-07-03T16:15:16.798Z [LOG] Checking for scheduled streams (2025-07-03T16:15:16.798Z to 2025-07-03T16:16:16.798Z)
+2025-07-03T16:15:16.830Z [LOG] Checking for scheduled streams (2025-07-03T16:15:16.829Z to 2025-07-03T16:16:16.829Z)
+2025-07-03T16:15:31.871Z [LOG] Upload request received: [
+  {
+    fieldname: 'video',
+    originalname: '0620(7).mp4',
+    encoding: '7bit',
+    mimetype: 'video/mp4',
+    destination: 'C:\\Users\\willy\\Downloads\\streamflow-main\\streamflow-main\\public\\uploads\\videos',
+    filename: 'video-1751559331722-394816400.mp4',
+    path: 'C:\\Users\\willy\\Downloads\\streamflow-main\\streamflow-main\\public\\uploads\\videos\\video-1751559331722-394816400.mp4',
+    size: 17341745
+  }
+]
+2025-07-03T16:15:31.893Z [LOG] Upload request received: [
+  {
+    fieldname: 'video',
+    originalname: '0620(8).mp4',
+    encoding: '7bit',
+    mimetype: 'video/mp4',
+    destination: 'C:\\Users\\willy\\Downloads\\streamflow-main\\streamflow-main\\public\\uploads\\videos',
+    filename: 'video-1751559331722-880745595.mp4',
+    path: 'C:\\Users\\willy\\Downloads\\streamflow-main\\streamflow-main\\public\\uploads\\videos\\video-1751559331722-880745595.mp4',
+    size: 17683815
+  }
+]
+2025-07-03T16:15:31.910Z [LOG] Upload request received: [
+  {
+    fieldname: 'video',
+    originalname: '0620(6).mp4',
+    encoding: '7bit',
+    mimetype: 'video/mp4',
+    destination: 'C:\\Users\\willy\\Downloads\\streamflow-main\\streamflow-main\\public\\uploads\\videos',
+    filename: 'video-1751559331720-793704103.mp4',
+    path: 'C:\\Users\\willy\\Downloads\\streamflow-main\\streamflow-main\\public\\uploads\\videos\\video-1751559331720-793704103.mp4',
+    size: 24147846
+  }
+]
+2025-07-03T16:16:16.804Z [LOG] Checking for scheduled streams (2025-07-03T16:16:16.802Z to 2025-07-03T16:17:16.802Z)
+2025-07-03T16:16:16.834Z [LOG] Checking for scheduled streams (2025-07-03T16:16:16.833Z to 2025-07-03T16:17:16.833Z)
+2025-07-03T16:17:16.808Z [LOG] Checking for scheduled streams (2025-07-03T16:17:16.807Z to 2025-07-03T16:18:16.807Z)
+2025-07-03T16:17:16.839Z [LOG] Checking for scheduled streams (2025-07-03T16:17:16.839Z to 2025-07-03T16:18:16.839Z)
+2025-07-03T16:18:16.802Z [LOG] [StreamingService] Syncing stream statuses...
+2025-07-03T16:18:16.805Z [LOG] [StreamingService] Stream status sync completed. Active streams: 0
+2025-07-03T16:18:16.818Z [LOG] Checking for scheduled streams (2025-07-03T16:18:16.817Z to 2025-07-03T16:19:16.817Z)
+2025-07-03T16:18:16.848Z [LOG] Checking for scheduled streams (2025-07-03T16:18:16.848Z to 2025-07-03T16:19:16.848Z)
+2025-07-03T16:19:16.821Z [LOG] Checking for scheduled streams (2025-07-03T16:19:16.821Z to 2025-07-03T16:20:16.821Z)
+2025-07-03T16:19:16.852Z [LOG] Checking for scheduled streams (2025-07-03T16:19:16.852Z to 2025-07-03T16:20:16.852Z)
+2025-07-03T16:20:16.833Z [LOG] Checking for scheduled streams (2025-07-03T16:20:16.833Z to 2025-07-03T16:21:16.833Z)
+2025-07-03T16:20:16.865Z [LOG] Checking for scheduled streams (2025-07-03T16:20:16.864Z to 2025-07-03T16:21:16.864Z)
+2025-07-03T16:21:16.838Z [LOG] Checking for scheduled streams (2025-07-03T16:21:16.838Z to 2025-07-03T16:22:16.838Z)
+2025-07-03T16:21:16.869Z [LOG] Checking for scheduled streams (2025-07-03T16:21:16.868Z to 2025-07-03T16:22:16.868Z)
+2025-07-03T16:22:16.845Z [LOG] Checking for scheduled streams (2025-07-03T16:22:16.844Z to 2025-07-03T16:23:16.844Z)
+2025-07-03T16:22:16.876Z [LOG] Checking for scheduled streams (2025-07-03T16:22:16.876Z to 2025-07-03T16:23:16.876Z)
+2025-07-03T16:22:25.332Z [LOG] Logger initialized. Output will be written to console and logs/app.log
+2025-07-03T16:22:25.485Z [LOG] Logger initialized. Output will be written to console and logs/app.log
+2025-07-03T16:22:26.419Z [LOG] Using bundled FFmpeg at: C:\Users\willy\Downloads\streamflow-main\streamflow-main\node_modules\@ffmpeg-installer\win32-x64\ffmpeg.exe
+2025-07-03T16:22:26.420Z [LOG] Stream scheduler initialized
+2025-07-03T16:22:26.422Z [LOG] Checking for scheduled streams (2025-07-03T16:22:26.422Z to 2025-07-03T16:23:26.422Z)
+2025-07-03T16:22:26.455Z [LOG] StreamFlow running at:
+2025-07-03T16:22:26.455Z [LOG]   http://192.168.1.7:7575
+2025-07-03T16:22:26.457Z [LOG]   http://172.20.176.1:7575
+2025-07-03T16:22:26.461Z [LOG] Stream scheduler initialized
+2025-07-03T16:22:26.461Z [LOG] Checking for scheduled streams (2025-07-03T16:22:26.461Z to 2025-07-03T16:23:26.461Z)
+2025-07-03T16:22:26.463Z [LOG] [StreamingService] Syncing stream statuses...
+2025-07-03T16:22:26.466Z [LOG] [StreamingService] Stream status sync completed. Active streams: 0
+2025-07-03T16:23:26.423Z [LOG] Checking for scheduled streams (2025-07-03T16:23:26.423Z to 2025-07-03T16:24:26.423Z)
+2025-07-03T16:23:26.470Z [LOG] Checking for scheduled streams (2025-07-03T16:23:26.470Z to 2025-07-03T16:24:26.470Z)
+2025-07-03T16:24:26.424Z [LOG] Checking for scheduled streams (2025-07-03T16:24:26.424Z to 2025-07-03T16:25:26.424Z)
+2025-07-03T16:24:26.471Z [LOG] Checking for scheduled streams (2025-07-03T16:24:26.471Z to 2025-07-03T16:25:26.471Z)
+2025-07-03T16:25:26.430Z [LOG] Checking for scheduled streams (2025-07-03T16:25:26.430Z to 2025-07-03T16:26:26.430Z)
+2025-07-03T16:25:26.476Z [LOG] Checking for scheduled streams (2025-07-03T16:25:26.476Z to 2025-07-03T16:26:26.476Z)
+2025-07-03T16:26:26.442Z [LOG] Checking for scheduled streams (2025-07-03T16:26:26.442Z to 2025-07-03T16:27:26.442Z)
+2025-07-03T16:26:26.488Z [LOG] Checking for scheduled streams (2025-07-03T16:26:26.488Z to 2025-07-03T16:27:26.488Z)
+2025-07-03T16:27:01.313Z [LOG] Logger initialized. Output will be written to console and logs/app.log
+2025-07-03T16:27:02.227Z [LOG] Using bundled FFmpeg at: C:\Users\willy\Downloads\streamflow-main\streamflow-main\node_modules\@ffmpeg-installer\win32-x64\ffmpeg.exe
+2025-07-03T16:27:02.228Z [LOG] Stream scheduler initialized
+2025-07-03T16:27:02.230Z [LOG] Checking for scheduled streams (2025-07-03T16:27:02.230Z to 2025-07-03T16:28:02.230Z)
+2025-07-03T16:27:02.263Z [LOG] StreamFlow running at:
+2025-07-03T16:27:02.264Z [LOG]   http://192.168.1.7:7575
+2025-07-03T16:27:02.265Z [LOG]   http://172.20.176.1:7575
+2025-07-03T16:27:02.270Z [LOG] Stream scheduler initialized
+2025-07-03T16:27:02.270Z [LOG] Checking for scheduled streams (2025-07-03T16:27:02.270Z to 2025-07-03T16:28:02.270Z)
+2025-07-03T16:27:02.272Z [LOG] [StreamingService] Syncing stream statuses...
+2025-07-03T16:27:02.274Z [LOG] [StreamingService] Stream status sync completed. Active streams: 0
+2025-07-03T16:27:03.554Z [LOG] Logger initialized. Output will be written to console and logs/app.log
+2025-07-03T16:27:03.793Z [LOG] Logger initialized. Output will be written to console and logs/app.log
+2025-07-03T16:27:04.582Z [LOG] Using bundled FFmpeg at: C:\Users\willy\Downloads\streamflow-main\streamflow-main\node_modules\@ffmpeg-installer\win32-x64\ffmpeg.exe
+2025-07-03T16:27:04.583Z [LOG] Stream scheduler initialized
+2025-07-03T16:27:04.585Z [LOG] Checking for scheduled streams (2025-07-03T16:27:04.584Z to 2025-07-03T16:28:04.584Z)
+2025-07-03T16:27:04.618Z [LOG] StreamFlow running at:
+2025-07-03T16:27:04.619Z [LOG]   http://192.168.1.7:7575
+2025-07-03T16:27:04.620Z [LOG]   http://172.20.176.1:7575
+2025-07-03T16:27:04.624Z [LOG] Stream scheduler initialized
+2025-07-03T16:27:04.625Z [LOG] Checking for scheduled streams (2025-07-03T16:27:04.625Z to 2025-07-03T16:28:04.625Z)
+2025-07-03T16:27:04.627Z [LOG] [StreamingService] Syncing stream statuses...
+2025-07-03T16:27:04.629Z [LOG] [StreamingService] Stream status sync completed. Active streams: 0
+2025-07-03T16:27:55.361Z [LOG] Logger initialized. Output will be written to console and logs/app.log
+2025-07-03T16:27:56.218Z [LOG] Using bundled FFmpeg at: C:\Users\willy\Downloads\streamflow-main\streamflow-main\node_modules\@ffmpeg-installer\win32-x64\ffmpeg.exe
+2025-07-03T16:27:56.219Z [LOG] Stream scheduler initialized
+2025-07-03T16:27:56.221Z [LOG] Checking for scheduled streams (2025-07-03T16:27:56.221Z to 2025-07-03T16:28:56.221Z)
+2025-07-03T16:27:56.255Z [LOG] StreamFlow running at:
+2025-07-03T16:27:56.256Z [LOG]   http://192.168.1.7:7575
+2025-07-03T16:27:56.258Z [LOG]   http://172.20.176.1:7575
+2025-07-03T16:27:56.263Z [LOG] Stream scheduler initialized
+2025-07-03T16:27:56.264Z [LOG] Checking for scheduled streams (2025-07-03T16:27:56.263Z to 2025-07-03T16:28:56.263Z)
+2025-07-03T16:27:56.266Z [LOG] [StreamingService] Syncing stream statuses...
+2025-07-03T16:27:56.268Z [LOG] [StreamingService] Stream status sync completed. Active streams: 0
+2025-07-03T16:27:57.526Z [LOG] Logger initialized. Output will be written to console and logs/app.log
+2025-07-03T16:27:58.534Z [LOG] Using bundled FFmpeg at: C:\Users\willy\Downloads\streamflow-main\streamflow-main\node_modules\@ffmpeg-installer\win32-x64\ffmpeg.exe
+2025-07-03T16:27:58.535Z [LOG] Stream scheduler initialized
+2025-07-03T16:27:58.537Z [LOG] Checking for scheduled streams (2025-07-03T16:27:58.536Z to 2025-07-03T16:28:58.536Z)
+2025-07-03T16:27:58.544Z [ERROR] -----------------------------------
+2025-07-03T16:27:58.545Z [ERROR] UNCAUGHT EXCEPTION: ReferenceError: Cannot access 'isAuthenticated' before initialization
+    at Object.<anonymous> (C:\Users\willy\Downloads\streamflow-main\streamflow-main\app.js:166:39)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+2025-07-03T16:27:58.546Z [ERROR] -----------------------------------
+2025-07-03T16:27:59.001Z [LOG] Logger initialized. Output will be written to console and logs/app.log
+2025-07-03T16:27:59.144Z [LOG] Logger initialized. Output will be written to console and logs/app.log
+2025-07-03T16:27:59.903Z [LOG] Using bundled FFmpeg at: C:\Users\willy\Downloads\streamflow-main\streamflow-main\node_modules\@ffmpeg-installer\win32-x64\ffmpeg.exe
+2025-07-03T16:27:59.904Z [LOG] Stream scheduler initialized
+2025-07-03T16:27:59.906Z [LOG] Checking for scheduled streams (2025-07-03T16:27:59.906Z to 2025-07-03T16:28:59.906Z)
+2025-07-03T16:27:59.913Z [ERROR] -----------------------------------
+2025-07-03T16:27:59.914Z [ERROR] UNCAUGHT EXCEPTION: ReferenceError: Cannot access 'isAuthenticated' before initialization
+    at Object.<anonymous> (C:\Users\willy\Downloads\streamflow-main\streamflow-main\app.js:166:39)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+2025-07-03T16:27:59.916Z [ERROR] -----------------------------------
+2025-07-03T16:28:59.916Z [LOG] Checking for scheduled streams (2025-07-03T16:28:59.916Z to 2025-07-03T16:29:59.916Z)
+2025-07-03T16:29:59.922Z [LOG] Checking for scheduled streams (2025-07-03T16:29:59.921Z to 2025-07-03T16:30:59.921Z)
+2025-07-03T16:30:59.924Z [LOG] Checking for scheduled streams (2025-07-03T16:30:59.923Z to 2025-07-03T16:31:59.923Z)
+2025-07-03T16:31:59.926Z [LOG] Checking for scheduled streams (2025-07-03T16:31:59.925Z to 2025-07-03T16:32:59.925Z)
+2025-07-03T16:32:59.919Z [LOG] [StreamingService] Syncing stream statuses...
+2025-07-03T16:32:59.922Z [LOG] [StreamingService] Stream status sync completed. Active streams: 0
+2025-07-03T16:32:59.933Z [LOG] Checking for scheduled streams (2025-07-03T16:32:59.933Z to 2025-07-03T16:33:59.933Z)
+2025-07-03T16:33:59.943Z [LOG] Checking for scheduled streams (2025-07-03T16:33:59.943Z to 2025-07-03T16:34:59.943Z)
+2025-07-03T16:34:59.957Z [LOG] Checking for scheduled streams (2025-07-03T16:34:59.957Z to 2025-07-03T16:35:59.957Z)
+2025-07-03T16:35:59.968Z [LOG] Checking for scheduled streams (2025-07-03T16:35:59.968Z to 2025-07-03T16:36:59.968Z)
+2025-07-03T16:37:02.364Z [LOG] Logger initialized. Output will be written to console and logs/app.log
+2025-07-03T16:37:03.154Z [LOG] Using bundled FFmpeg at: C:\Users\willy\Downloads\streamflow-main\streamflow-main\node_modules\@ffmpeg-installer\win32-x64\ffmpeg.exe
+2025-07-03T16:37:03.155Z [LOG] Stream scheduler initialized
+2025-07-03T16:37:03.157Z [LOG] Checking for scheduled streams (2025-07-03T16:37:03.157Z to 2025-07-03T16:38:03.157Z)
+2025-07-03T16:37:03.163Z [ERROR] -----------------------------------
+2025-07-03T16:37:03.164Z [ERROR] UNCAUGHT EXCEPTION: ReferenceError: Cannot access 'isAuthenticated' before initialization
+    at Object.<anonymous> (C:\Users\willy\Downloads\streamflow-main\streamflow-main\app.js:166:39)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+2025-07-03T16:37:03.165Z [ERROR] -----------------------------------
+2025-07-03T16:39:05.011Z [LOG] Logger initialized. Output will be written to console and logs/app.log
+2025-07-03T16:39:05.868Z [LOG] Using bundled FFmpeg at: C:\Users\willy\Downloads\streamflow-main\streamflow-main\node_modules\@ffmpeg-installer\win32-x64\ffmpeg.exe
+2025-07-03T16:39:05.869Z [LOG] Stream scheduler initialized
+2025-07-03T16:39:05.870Z [LOG] Checking for scheduled streams (2025-07-03T16:39:05.870Z to 2025-07-03T16:40:05.870Z)
+2025-07-03T16:39:05.877Z [ERROR] -----------------------------------
+2025-07-03T16:39:05.878Z [ERROR] UNCAUGHT EXCEPTION: ReferenceError: Cannot access 'isAuthenticated' before initialization
+    at Object.<anonymous> (C:\Users\willy\Downloads\streamflow-main\streamflow-main\app.js:166:39)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+2025-07-03T16:39:05.879Z [ERROR] -----------------------------------
+2025-07-03T16:41:55.558Z [LOG] Logger initialized. Output will be written to console and logs/app.log
+2025-07-03T16:41:56.331Z [LOG] Using bundled FFmpeg at: C:\Users\willy\Downloads\streamflow-main\streamflow-main\node_modules\@ffmpeg-installer\win32-x64\ffmpeg.exe
+2025-07-03T16:41:56.331Z [LOG] Stream scheduler initialized
+2025-07-03T16:41:56.335Z [LOG] Checking for scheduled streams (2025-07-03T16:41:56.334Z to 2025-07-03T16:42:56.334Z)
+2025-07-03T16:41:56.367Z [LOG] StreamFlow running at:
+2025-07-03T16:41:56.368Z [LOG]   http://192.168.1.7:7575
+2025-07-03T16:41:56.370Z [LOG]   http://172.20.176.1:7575
+2025-07-03T16:41:56.376Z [LOG] Stream scheduler initialized
+2025-07-03T16:41:56.377Z [LOG] Checking for scheduled streams (2025-07-03T16:41:56.376Z to 2025-07-03T16:42:56.376Z)
+2025-07-03T16:41:56.380Z [LOG] [StreamingService] Syncing stream statuses...
+2025-07-03T16:41:56.383Z [LOG] [StreamingService] Stream status sync completed. Active streams: 0
