@@ -13,7 +13,6 @@ yarn-error.log*
 Thumbs.db
 
 # Env & secrets
-.env
 .env.local
 .env.*.local
 
