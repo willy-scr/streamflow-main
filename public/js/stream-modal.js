@@ -2,10 +2,10 @@
  * StreamFlow v2.0 - Live Streaming Lewat VPS
  * 
  * Custom Features & UI Components
- * Created by: Bang Tutorial
+ * Created by: Willy Jhason
  * GitHub: https://github.com/bangtutorial
 
- * © 2025 Bang Tutorial - All rights reserved
+ * © 2025 Willy Jhason - All rights reserved
  */
 
 let selectedVideoData = null;
