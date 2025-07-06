@@ -449,3 +449,4 @@
 2025-07-03T16:41:56.377Z [LOG] Checking for scheduled streams (2025-07-03T16:41:56.376Z to 2025-07-03T16:42:56.376Z)
 2025-07-03T16:41:56.380Z [LOG] [StreamingService] Syncing stream statuses...
 2025-07-03T16:41:56.383Z [LOG] [StreamingService] Stream status sync completed. Active streams: 0
+2025-07-06T23:40:02.444Z [LOG] Logger initialized. Output will be written to console and logs/app.log
