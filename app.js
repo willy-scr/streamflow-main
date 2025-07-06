@@ -947,6 +947,33 @@ app.delete('/api/videos/:id', isAuthenticated, async (req, res) => {
     res.status(500).json({ success: false, error: 'Failed to delete video' });
   }
 });
+
+app.delete('/api/videos', isAuthenticated, async (req, res) => {
+  try {
+    const ids = Array.isArray(req.body.ids) ? req.body.ids : [];
+    if (ids.length === 0) {
+      return res.status(400).json({ success: false, error: 'No video IDs provided' });
+    }
+    const results = { deleted: [], errors: [] };
+    for (const id of ids) {
+      const video = await Video.findById(id);
+      if (!video || video.user_id !== req.session.userId) {
+        results.errors.push(id);
+        continue;
+      }
+      try {
+        await Video.delete(id);
+        results.deleted.push(id);
+      } catch (err) {
+        results.errors.push(id);
+      }
+    }
+    res.json({ success: true, deleted: results.deleted.length, errors: results.errors });
+  } catch (error) {
+    console.error('Bulk delete error:', error);
+    res.status(500).json({ success: false, error: 'Failed to delete videos' });
+  }
+});
 app.post('/api/videos/:id/rename', isAuthenticated, [
   body('title').trim().isLength({ min: 1 }).withMessage('Title cannot be empty')
 ], async (req, res) => {
