@@ -24,6 +24,7 @@ const ffmpeg = require('fluent-ffmpeg');
 const ffmpegInstaller = require('@ffmpeg-installer/ffmpeg');
 const streamingService = require('./services/streamingService');
 const schedulerService = require('./services/schedulerService');
+const packageInfo = require('./package.json');
 ffmpeg.setFfmpegPath(ffmpegInstaller.path);
 process.on('unhandledRejection', (reason, promise) => {
   console.error('-----------------------------------');
@@ -42,6 +43,7 @@ const port = process.env.PORT || 7575;
 const tokens = new csrf();
 ensureDirectories();
 ensureDirectories();
+app.locals.version = packageInfo.version;
 app.locals.helpers = {
   getUsername: function (req) {
     if (req.session && req.session.username) {
@@ -430,6 +432,9 @@ app.post('/setup-account', upload.single('avatar'), [
 });
 app.get('/', (req, res) => {
   res.redirect('/dashboard');
+});
+app.get('/about', (req, res) => {
+  res.render('about', { title: 'About', active: 'about' });
 });
 app.get('/dashboard', isAuthenticated, async (req, res) => {
   try {
