@@ -112,5 +112,18 @@ class Video {
         .catch(err => reject(err));
     });
   }
+
+  static async deleteMultiple(ids = []) {
+    const results = { deleted: [], errors: [] };
+    for (const id of ids) {
+      try {
+        await Video.delete(id);
+        results.deleted.push(id);
+      } catch (err) {
+        results.errors.push({ id, error: err.message });
+      }
+    }
+    return results;
+  }
 }
 module.exports = Video;
