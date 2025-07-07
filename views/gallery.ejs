@@ -55,6 +55,7 @@
         <% videos.forEach(function(video) { %>
           <div class="bg-gray-800 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
             <div class="aspect-video relative group">
+              <input type="checkbox" class="video-checkbox absolute top-2 left-2 w-4 h-4 text-primary bg-gray-700 border-gray-600 rounded" data-id="<%= video.id %>">
 
               <input type="checkbox" class="video-checkbox absolute top-2 left-2 w-4 h-4 text-primary bg-gray-700 border-gray-600 rounded" data-id="<%= video.id %>">
 
@@ -1195,6 +1196,11 @@
           showToast('error', 'An error occurred while deleting videos');
         }
       }
+
+      // expose for inline handlers
+      window.deleteSelectedVideos = deleteSelectedVideos;
+      window.handleCheckboxChange = handleCheckboxChange;
+
       function setModalButtonState(buttonId, state, text) {
         const button = document.getElementById(buttonId);
         if (state === 'loading') {
