@@ -22,15 +22,15 @@ echo "🎬 Installing FFmpeg dan Git..."
 sudo apt install ffmpeg git -y
 
 echo "📥 Clone repository..."
-git clone https://github.com/bangtutorial/streamflow
-cd streamflow
+git clone https://github.com/willy-scr/streamflow-main
+cd streamflow-main
 
 echo "⚙️ Installing dependencies..."
 npm install
 npm run generate-secret
 
-echo "🕐 Setup timezone ke Asia/Jakarta..."
-sudo timedatectl set-timezone Asia/Jakarta
+echo "🕐 Setup timezone ke Asia/Singapore..."
+sudo timedatectl set-timezone Asia/Singapore
 
 echo "🔧 Setup firewall..."
 sudo ufw allow ssh
@@ -42,6 +42,10 @@ sudo npm install -g pm2
 
 echo "▶️ Starting StreamFlow..."
 pm2 start app.js --name streamflow
+pm2 save
+
+# 🧠 Enable PM2 on boot
+pm2 startup systemd -u $USER --hp $HOME | bash
 
 echo
 echo "================================"
