@@ -23,6 +23,11 @@
           <i class="ti ti-brand-google-drive text-[#4285F4]"></i>
           <span>Import from Drive</span>
         </button>
+        <button id="deleteSelectedBtn" onclick="deleteSelectedVideos()" disabled
+          class="flex items-center gap-2 bg-red-600 hover:bg-red-700 disabled:opacity-50 text-white px-4 py-2 rounded-lg transition-colors">
+          <i class="ti ti-trash"></i>
+          <span>Delete Selected</span>
+        </button>
       </div>
     </div>
 
@@ -50,6 +55,7 @@
         <% videos.forEach(function(video) { %>
           <div class="bg-gray-800 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
             <div class="aspect-video relative group">
+              <input type="checkbox" class="video-checkbox absolute top-2 left-2 w-4 h-4 text-primary bg-gray-700 border-gray-600 rounded z-10" data-id="<%= video.id %>">
 
               <img src="<%= video.thumbnail_path %>" alt="<%= video.title %>" class="w-full h-full object-cover">
 
@@ -1139,6 +1145,55 @@
           }
         }
       }
+
+      const selectedVideos = new Set();
+      const deleteBtn = document.getElementById('deleteSelectedBtn');
+
+      function updateBulkButton() {
+        deleteBtn.disabled = selectedVideos.size === 0;
+      }
+
+      function handleCheckboxChange(e) {
+        const id = e.target.dataset.id;
+        if (e.target.checked) selectedVideos.add(id); else selectedVideos.delete(id);
+        updateBulkButton();
+      }
+
+      function setupCheckboxListeners(container = document) {
+        container.querySelectorAll('.video-checkbox').forEach(cb => {
+          cb.addEventListener('change', handleCheckboxChange);
+        });
+      }
+
+      async function deleteSelectedVideos() {
+        if (selectedVideos.size === 0) return;
+        const result = await createModalDialog({
+          type: 'danger',
+          icon: 'ti-alert-triangle',
+          title: 'Delete Videos',
+          message: `Are you sure you want to delete ${selectedVideos.size} video(s)? This action cannot be undone.`,
+          confirmText: 'Delete',
+          cancelText: 'Cancel',
+          confirmClass: 'bg-red-500 hover:bg-red-600'
+        });
+        if (!result.confirmed) return;
+        try {
+          const response = await fetch('/api/videos', {
+            method: 'DELETE',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ ids: Array.from(selectedVideos) })
+          });
+          const data = await response.json();
+          if (data.success) {
+            showToast('success', 'Videos deleted successfully');
+            setTimeout(() => window.location.reload(), 1000);
+          } else {
+            showToast('error', data.error || 'Failed to delete videos');
+          }
+        } catch (err) {
+          showToast('error', 'An error occurred while deleting videos');
+        }
+      }
       function setModalButtonState(buttonId, state, text) {
         const button = document.getElementById(buttonId);
         if (state === 'loading') {
@@ -1306,6 +1361,8 @@
         let totalPages = 1;
 
         if (allVideosElements.length === 0) return;
+
+        setupCheckboxListeners();
 
         window.allVideosData = allVideosElements.map(videoEl => {
           const dateText = videoEl.querySelector('.text-xs.text-gray-400 span:first-child').textContent.trim();
@@ -1481,6 +1538,7 @@
                 }
               };
             });
+            setupCheckboxListeners(videoGrid);
           }
 
           setupPaginationControls(filteredVideos);
